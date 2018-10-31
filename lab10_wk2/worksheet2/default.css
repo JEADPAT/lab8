@@ -1,0 +1,145 @@
+﻿div#wrapper {
+	margin: 10px auto;
+	width: 70%;
+	min-width:600px;
+	padding-top: 0.3em;
+	box-shadow: 0px 0px 5px 5px #AAAAAA;
+	/*fallback for browser not supporting shadow*/
+	border-left:1px solid #AAAAAA; 
+	border-right:1px solid #AAAAAA;
+}
+
+div#subwrapper{
+	margin: 0px 20px;
+}
+body {	
+	margin:0px;
+	font-family:sans-serif;
+}
+
+div#div_main{
+	position:relative;	
+}
+
+div#div_header{
+	font-size: 2em;
+	font-weight:700;
+	font-variant:small-caps;
+	padding:0.7em;
+	background-color: #85ACF7;
+	color:white;
+}
+
+div#div_subhead{
+	background-color:#F4F4F4;
+	border-bottom: 1px solid black;
+}
+
+div#div_right{
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	width:10%;
+	background-color:#D6E3FC;
+	border-left: 1px solid #85ACF7;
+}
+
+div#div_content{	
+	background-color:white;
+	margin-left:5%;
+	padding:1em;
+	min-height: 400px;
+}
+
+div#div_footer{
+	border-top: 3px solid #888888;
+	text-align:center;
+	padding:1em;
+}
+
+div#div_footer:after{
+	content: "Adapted from BlueFreedom theme from wordpress.com";
+}
+
+ul#menu{
+	list-style-type: none;
+	padding:0.5em;	
+	font-size:0.9em;
+	margin:0px;
+}
+
+#menu li{
+	text-align:center;
+	display:inline;
+}
+
+#menu a{
+	padding:0.8em;
+}
+
+#menu a:link, #menu a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+#menu a:hover, #menu a:active{
+	color: rgb(0, 102, 204);
+}
+
+h2{
+	color: #527BBD;	
+	margin-top:0.4em;
+	margin-bottom:0.4em;	
+	border-bottom:2px dotted #C5D8FB;
+}
+
+.form label{
+	display: block;
+	text-align:right;
+	font-weight:bold;
+	width:200px;
+	float:left;
+	margin-right:10px;
+}
+
+.form input{
+	padding: 4px 2px;
+	margin: 2px 2px 10px 10px;
+}
+
+.form input[type="text"], .form input[type="password"]{
+	display:block;
+	width:200px;	
+}
+.form input[type="submit"]{
+	width:150px;
+}
+
+.form input[type="checkbox"]{
+	display:block;
+}
+.form select{
+	padding: 4px 2px;
+	display:block;
+	margin: 2px 2px 10px 10px;
+}
+
+.center{
+	text-align:center;
+}
+
+
+.usergroup th{
+	border: 1px solid black;
+	background-color: #85ACF7;
+}
+.usergroup td{
+	border: 1px solid black;
+	
+}
+.usergroup table{
+	border-collapse: collapse;
+	margin: 5px;
+	width: 85%;
+}
